@@ -11,4 +11,4 @@ RUN apt update \
 
 WORKDIR /apoolminer_linux_quai_v2.8.5
 
-ENTRYPOINT ["./apoolminer"] apoolminer
+ENTRYPOINT ["./apoolminer"]
