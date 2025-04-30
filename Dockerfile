@@ -9,6 +9,6 @@ RUN apt update \
     && rm apoolminer_linux_quai_v2.8.5.tar.gz \
     && ln -s libnvidia-ml.so.1 /lib/x86_64-linux-gnu/libnvidia-ml.so
 
-WORKDIR /apoolminer_linux_quai_v2.8.5.tar.gz
+WORKDIR /apoolminer_linux_quai_v2.8.5
 
-ENTRYPOINT ["./apoolminer"]
+ENTRYPOINT ["./apoolminer"] apoolminer
